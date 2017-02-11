@@ -15,7 +15,7 @@
           transform-style: preserve-3d;
   -webkit-perspective: 500px;
           perspective: 500px;
-  height: 18vw;
+  height: 28em;
   overflow: hidden;
   background-color: #aaa;
 }
@@ -55,7 +55,7 @@
 }
 .logo .top span {
   font-family: 'Open Sans', sans-serif;
-  font-size: 10vw;
+  font-size: 12em;
   font-weight: 300;
   color: transparent;
   text-shadow: 0 0 1px #000;
