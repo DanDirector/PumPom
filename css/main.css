@@ -1,10 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic);
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
-.section {
-  width: 500px;
-  height: 50px;
-}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 
 .logocontainer {
   display: -webkit-box;
@@ -20,14 +15,14 @@
           transform-style: preserve-3d;
   -webkit-perspective: 500px;
           perspective: 500px;
-  height: 100vh;
+  height: 18vw;
   overflow: hidden;
+  background-color: #aaa;
 }
 
-h2 {
+.logo {
   -webkit-animation: wobble 5s ease-in-out infinite;
-          animation: wobble 5s ease-in-out infinite;
-  padding-bottom: 2em;
+          /*animation: wobble 5s ease-in-out infinite;*/
 }
 
 @-webkit-keyframes wobble {
@@ -51,20 +46,36 @@ h2 {
             transform: rotateY(45deg);
   }
 }
-span {
-  font: italic 10vw Playfair Display;
-  -webkit-animation: 5s ease-in-out infinite;
+.logo span {
+  /*-webkit-animation: 5s ease-in-out infinite;*/
           animation: 5s ease-in-out infinite;
+  /*color: transparent;
+  text-shadow: 0 0 1px #000; */ 
+  line-height: 1.1;
+}
+.logo .top span {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10vw;
+  font-weight: 300;
   color: transparent;
   text-shadow: 0 0 1px #000;
 }
-span:nth-child(-n+3) {
+.logo .bottom {
+  text-align: center;
+}
+.logo .bottom span {
+  font-size: 1.2vw;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 1.5vw;
+}
+.logo span:nth-child(-n+3) {
   -webkit-animation-delay: -2.5s;
           animation-delay: -2.5s;
 }
 
-span:nth-child(1),
-span:nth-last-child(1) {
+.logo span:nth-child(1),
+.logo span:nth-last-child(1) {
   -webkit-animation-name: blur-1;
           animation-name: blur-1;
 }
@@ -80,8 +91,8 @@ span:nth-last-child(1) {
     text-shadow: 0 0 0.15em #000;
   }
 }
-span:nth-child(2),
-span:nth-last-child(2) {
+.logo span:nth-child(2),
+.logo span:nth-last-child(2) {
   -webkit-animation-name: blur-2;
           animation-name: blur-2;
 }
@@ -97,8 +108,8 @@ span:nth-last-child(2) {
     text-shadow: 0 0 0.075em #000;
   }
 }
-span:nth-child(3),
-span:nth-last-child(3) {
+.logo span:nth-child(3),
+.logo span:nth-last-child(3) {
   -webkit-animation-name: blur-3;
           animation-name: blur-3;
 }
