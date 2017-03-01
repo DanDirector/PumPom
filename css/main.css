@@ -1,6 +1,36 @@
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic);
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+section {
+  height: 100vh;
+}
+
+
+.heder {
+  overflow: auto;
+  
+}
+
+.telephon{
+  float: right;
+  margin: 20px;
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+
+/*.telephon:after {
+  content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}*/
+
 .logocontainer {
   display: -webkit-box;
   display: -ms-flexbox;
