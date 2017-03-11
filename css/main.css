@@ -1,10 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic);
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
-@import "http://fonts.fontstorage.com/import/gtw.css";
-@import "http://fonts.fontstorage.com/import/zhizn.css";
-@import "http://fonts.fontstorage.com/import/badscript.css";
-@import "http://fonts.fontstorage.com/import/lato.css";
-
 .font-lato{
   font-family: 'Lato';
   margin-top: 48px;
@@ -19,7 +12,7 @@
 }
 
 .font-gtw{
-  font-family: 'GNUTypewriter';
+  font-family: 'gnutypewriter';
   font-size: 38px;
   margin-bottom: 45px;
 }
@@ -48,7 +41,7 @@ body {
   float: right;
   margin: 20px;
   font-size: 30px;
-  letter-spacing: 5px;
+  letter-spacing: 4px;
 }
 
 /*.telephon:after {
