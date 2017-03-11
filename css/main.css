@@ -1,15 +1,43 @@
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic);
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+@import "http://fonts.fontstorage.com/import/gtw.css";
+@import "http://fonts.fontstorage.com/import/zhizn.css";
+@import "http://fonts.fontstorage.com/import/badscript.css";
+@import "http://fonts.fontstorage.com/import/lato.css";
+
+.font-lato{
+  font-family: 'Lato';
+  margin-top: 48px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.font-badscript{
+  font-family: 'Bad Script';
+  font-size: 58px;
+      margin-bottom: -10px;
+}
+
+.font-gtw{
+  font-family: 'GNUTypewriter';
+  font-size: 38px;
+  margin-bottom: 45px;
+}
+.font-zhizn{
+  font-family: 'Zhizn';
+  font-size: 23px;
+}
+
+.fa{
+  font-size: 4em;
+    margin-bottom: 14px;
+    margin-top: 52px;
+}
 
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
-
-section {
-  height: 100vh;
-}
-
 
 .heder {
   overflow: auto;
@@ -30,6 +58,10 @@ height: 0;
 clear: both;
 visibility: hidden;
 }*/
+
+
+
+/*--------------------------------start logo*/
 
 .logocontainer {
   display: -webkit-box;
@@ -155,3 +187,5 @@ visibility: hidden;
     text-shadow: 0 0 0.05em #000;
   }
 }
+
+/*----------------------------------end ot logo*/
