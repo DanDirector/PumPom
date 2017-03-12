@@ -70,8 +70,9 @@ visibility: hidden;
           transform-style: preserve-3d;
   -webkit-perspective: 500px;
           perspective: 500px;
-  height: 28em;
+  /*height: 28em;*/
   overflow: hidden;
+  padding: 48px 0px;
   background-color: #fff;
 }
 
@@ -110,7 +111,7 @@ visibility: hidden;
 }
 .logo .top span {
   font-family: 'Open Sans', sans-serif;
-  font-size: 12em;
+  font-size: 68px;
   font-weight: 300;
   color: transparent;
   text-shadow: 0 0 1px #000;
@@ -119,10 +120,10 @@ visibility: hidden;
   text-align: center;
 }
 .logo .bottom span {
-  font-size: 1.2vw;
+  font-size: 12px;
   font-weight: 100;
   text-transform: uppercase;
-  letter-spacing: 1.5vw;
+  letter-spacing: 6px;
 }
 .logo span:nth-child(-n+3) {
   -webkit-animation-delay: -2.5s;
@@ -181,4 +182,18 @@ visibility: hidden;
   }
 }
 
+@media screen and (min-width: 768px) {
+  .logo .top span {
+    font-size: 140px;
+  }
+  .logo .bottom span{
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .logocontainer {
+  padding: 148px 0px;
+  }
+}
 /*----------------------------------end ot logo*/
