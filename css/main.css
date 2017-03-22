@@ -21,7 +21,7 @@
   font-size: 23px;
 }
 
-.fa{
+.card .fa{
   font-size: 4em;
     margin-bottom: 14px;
     margin-top: 52px;
@@ -197,3 +197,23 @@ visibility: hidden;
   }
 }
 /*----------------------------------end ot logo*/
+
+footer{
+  background-color: #1d242a;
+}
+footer .fa{
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  font-size: 26px;
+  padding: 10px;
+}
+.social{
+  text-align: center;
+  padding: 10px;
+}
+.info{
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  padding: 10px;
+}
